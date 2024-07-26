@@ -1,0 +1,123 @@
+{
+  "new-account": {
+    "subject": "Welcome to Foto",
+    "body": "Thank you for signing up to Foto. If you need any assistance, please don’t hesitate to contact us.",
+    "button": {
+      "label": "Sign In",
+      "url": "{{domain}}/signin"
+    }
+  },
+  "duplicate-user": {
+    "subject": "Important! Your Foto Account",
+    "body": "We noticed you have already registered an account, so we used your original password to save you any confusion in the future.",
+    "button": {
+      "label": "Sign In",
+      "url": "{{domain}}/signin"
+    }
+  },
+  "new-plan": {
+    "subject": "Your Foto Plan",
+    "body": "Thank you for selecting the {{content.plan}} plan. Your card has been successfully charged {{content.price}}.",
+    "button": {
+      "label": "Your Dashboard",
+      "url": "{{domain}}/dashboard"
+    }
+  },
+  "new-user": {
+    "subject": "Welcome to Foto",
+    "body": "Thank you for signing up to Foto, you can now sign in. \n If you need any assistance, please don’t hesitate to contact us.",
+    "button": {
+      "label": "Sign In",
+      "url": "{{domain}}/signin"
+    }
+  },
+  "plan-updated": {
+    "subject": "Your billing plan has been updated",
+    "body": "This is confirmation that your billing plan has been successfully updated to the {{content.plan}} plan.",
+    "button": {
+      "label": "Manage Your Plan",
+      "url": "{{domain}}/account/billing"
+    }
+  },
+  "card-updated": {
+    "subject": "Your credit card has been updated",
+    "body": "This is confirmation that your credit card has been updated. If you didn't change your card, please let us know.",
+    "button": {
+      "label": "Contact Support",
+      "url": "mailto:support@yourdomain.com"
+    }
+  },
+  "account-closed": {
+    "subject": "We're sorry to see you go",
+    "body": "This is confirmation that your account has been closed and all of your data has been removed from our servers. \n If you change your mind, you can create a new account any time.",
+    "button": {
+      "label": "Sign Up",
+      "url": "{{domain}}/signup"
+    }
+  },
+  "invite-accepted": {
+    "subject": "Your friend accepted your invite",
+    "body": "Woohoo! {{content.friend}} has accepted your invitation to join your team.",
+    "button": {
+      "label": "Invite More Friends",
+      "url": "{{domain}}/account/users"
+    }
+  },
+  "password-updated": {
+    "subject": "Your password has been changed",
+    "body": "Your new password has been saved. \n If you didn't change your password, please contact us and let us know.",
+    "button": {
+      "label": "Contact Support",
+      "url": "mailto:support@yourdomain.com"
+    }
+  },
+  "password-reset": {
+    "subject": "You requested a password reset",
+    "title": "Forgot your password?",
+    "body": "Click the link below to reset your password.",
+    "button": {
+      "label": "Reset Password",
+      "url": "{{domain}}/resetpassword?token={{content.token}}"
+    }
+  },
+  "invite": {
+    "subject": "Your friend has invited you to use Foto",
+    "body": "Your friend {{content.friend}} has invited you to join his team on Foto. Sign up now to start working with {{content.friend}}.",
+    "button": {
+      "label": "Sign Up Now",
+      "url": "{{domain}}/signup/user?id={{content.id}}&email={{content.email}}"
+    }
+  },
+  "help": {
+    "subject": "New support message",
+    "body": "{{content.username}} has sent you a new message. <br><br> {{content.message}}",
+    "button": {
+      "label": "Respond Now",
+      "url": "mailto:{{content.email}}"
+    }
+  },
+  "new-comment": {
+    "subject": "New comment on your photo",
+    "body": "{{content.commenter}} commented on your photo.",
+    "button": {
+      "label": "View Comment",
+      "url": "{{domain}}/{{content.username}}/{{content.photo}}"
+    }
+  },
+  "new-like": {
+    "subject": "New like on your photo",
+    "body": "{{content.liker}} liked your photo.",
+    "button": {
+      "label": "View Photo",
+      "url": "{{domain}}/{{content.username}}/{{content.photo}}"
+    }
+  },
+  "new-signin": {
+    "subject": "New sign in to Foto",
+    "body": "We noticed a new sign in to your account. If this wasn't you, please change your password.",
+    "button": {
+      "label": "Change Password",
+      "url": "{{domain}}/account/password"
+    }
+  }
+}

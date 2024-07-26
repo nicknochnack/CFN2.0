@@ -1,0 +1,14 @@
+{
+  "development": {
+    "stripe": {
+      "publishableAPIKey": "pk_test_aM4K9g0bG00IyM9MxjyaAz6f"
+    },
+    "s3_url": "https://gravityfoto.s3.eu-west-2.amazonaws.com"
+  },
+  "production": {
+    "stripe": {
+      "publishableAPIKey": "pk_live_qvvNGrh49H50cCnpUBKrgFZY"
+    },
+    "s3_url": "https://gravityfoto.s3.eu-west-2.amazonaws.com"
+  }
+}

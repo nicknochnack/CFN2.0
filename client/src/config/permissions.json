@@ -1,0 +1,26 @@
+{
+  "owner": {
+    "owner": true,
+    "admin": true,
+    "developer": true,
+    "user": true
+  },
+  "admin": {
+    "owner": false,
+    "admin": true,
+    "developer": false,
+    "user": true
+  },
+  "user": {
+    "owner": false,
+    "admin": false,
+    "developer": false,
+    "user": true
+  },
+  "developer": {
+    "owner": false,
+    "admin": false,
+    "developer": true,
+    "user": true
+  }
+}
